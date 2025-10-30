@@ -1,0 +1,23 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "description": "Simple Node.js server with layered architecture and Sequelize (Postgres)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --watch src --exec node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.2",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
